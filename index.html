@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shawjee</title>
+    
+    <link rel="stylesheet" href="bulma/css/bulma.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
@@ -14,37 +16,88 @@
 
     <!-- Header section -->
     <header id="header"></header>
+    <footer class="columns footer has-background-white">
+		<div class="column is-9">
+			<div class="content">
+				<p class="is-size-4">
+					<strong class="has-text-primary">SHAWJEE</strong><br>
+					handcrafted with <i class="fa fa-heart has-text-danger"></i><br> by <a href="#">Rachit Shrivastava</a> <i class="fa fa-smile has-text-primary"></i>
+				</p>
+			</div>
 
-    <main>
-        <section id="section1">
-            <div class="leftSection_main">
-                <h1 class="sectionTitle">Overview</h1>
-            </div>
-            <div class="rightSection_main">
-                <div class="rightSectionInfoCard">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem soluta id non, asperiores aut perferendis dolor numquam aperiam mollitia neque provident nihil ipsum facilis ducimus harum vero. Suscipit corrupti ipsa illo iste omnis, iusto quod consequuntur nihil quos voluptas modi obcaecati placeat perferendis repudiandae optio, id exercitationem maiores temporibus fugiat nemo! 
-                        <br>
-                        <a href="#" class="readMoreBtn">Read More &nbsp; <i class="fa fa-chevron-right" aria-hidden="true"></i> </a>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section id="section2">
-            <div class="leftSection_main">
-                <h1 class="sectionTitle">Products</h1>
-            </div>
-            <div class="rightSection_main"></div>
-        </section>
-        <section id="section3">
-            <div class="leftSection_main">
-                <h1 class="sectionTitle">Infrastucture</h1>
-            </div>
-            <div class="rightSection_main"></div>
-        </section>
-    </main>
+			<p class="content is-size-4" style="margin-top: 40px;">
+				<!-- Follow <strong class="has-text-primary">Shawjee</strong> on -->
+				Follow him on
+			</p>
+			<div class="buttons">
+				<a href="#" class="button is-small is-outlined is-rounded is-link">
+					<span class="icon"><i class="fab fa-facebook"></i></span>
+					<span>Facebook</span>
+				</a>
+				<a href="#" class="button is-small is-outlined is-rounded is-danger">
+					<span class="icon"><i class="fab fa-instagram"></i></span>
+					<span>Instagram</span>
+				</a>
+				<a href="#" class="button is-small is-outlined is-rounded is-info">
+					<span class="icon"><i class="fab fa-twitter"></i></span>
+					<span>Twitter</span>
+				</a>
+			</div>	
 
+			<div class="columns" style="margin-top:20px;">
+				<div class="column ">
+					<p class="title is-5">Navigate to any page</p>
+					<ul class="content">
+						<li class="is-size-6">
+							<a href="">Home</a>
+						</li>
+						<li class="is-size-6">
+							<a href="">About</a>
+						</li>
+						<li class="is-size-6">
+							<a href="">Products</a>
+						</li>
+						<li class="is-size-6">
+							<a href="">Jobs</a>
+						</li>
+						<li class="is-size-6">
+							<a href="">Infrastructure</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<div class="column is-3">
+			<div class="content">
+				<p class="is-size-4">
+					<span>Get in touch with us.</span>
+				</p>
+			</div>
+			<div class="field">
+				<label class="label">Fullname</label>
+				<div class="control">
+					<input type="text" class="input is-primary" placeholder="Enter your fullname here">
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Email Address</label>
+				<div class="control">
+					<input type="email" class="input is-primary" placeholder="Enter your Email here">
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Your Query</label>
+				<div class="control">
+					<textarea class="textarea is-primary" placeholder="Type in your message here"></textarea>
+				</div>
+			</div>
+			<button class="button is-medium is-primary is-fullwidth">Send</button>
+		</div>
+	</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
     <script src="main.js"></script>
 </body>
 </html>
