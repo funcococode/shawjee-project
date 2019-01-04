@@ -1,48 +1,229 @@
 
 <!-- Top navigation area -->
-<nav>
-    <div class="navLeft">
-        <ul>
-            <li class="navListItem">
-                <i class="fas fa-home"></i> Home
-            </li>
-            <li class="navListItem">
-                <i class="fas fa-chart-line"></i> Career
-            </li>
-            <li class="navListItem">
-                <i class="fa fa-question-circle" aria-hidden="true"></i> Enquiry
-            </li>
-            <li class="navListItem">
-                <i class="fa fa-envelope" aria-hidden="true"></i> Contact Us
-            </li>
-        </ul>
+<nav class="navbar is-white has-shadow-divider">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="">
+        <!-- <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"> -->
+        <span class="title has-text-primary is-size-4">SHAWJEE</span>
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
     </div>
-    <div class="navRight">
-        <div>
-            <a class="navLinkItem facebookItem" href="">
-                <i class="fab fa-facebook-square"></i> Facebook
+    
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+        <a class="navbar-item" href="#header">
+            Home
+        </a>
+        <a class="navbar-item" href="#section1">
+            Overview
+        </a>
+        <a class="navbar-item" href="#section1">
+            Products
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+            More
             </a>
-            <a class="navLinkItem twitterItem" href="">
-                <i class="fab fa-twitter-square"></i> Twitter
+            <div class="navbar-dropdown is-boxed">
+            
+            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                Jobs
             </a>
-            <a class="navLinkItem instaItem" href="">
-                <i class="fab fa-instagram"></i> Instagram
+            <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                Infrastructure
             </a>
-            <a class="navLinkItem helpItem" href="">
-                <i class="fas fa-hands-helping"></i> Help
+            
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+                Contact Us
             </a>
+            
+            </div>
+        </div>
+        </div>
+    
+        <div class="navbar-end">
+        <div class="navbar-item">
+            <div class="field is-grouped">
+            <p class="control">
+                <a class="button is-primary is-outlined" href="">
+                <span class="icon">
+                    <i class="fas fa-info-circle    "></i>
+                </span>
+                <span>Help</span>
+                </a>
+            </p>
+            </div>
+        </div>
         </div>
     </div>
 </nav>
 <!-- Top navigation ends here -->
 
-<!-- Logo section -->
-    <h1 id="logo">Shawjee</h1>
-<!-- Logo Section ends here -->
+<!-- Logo area -->
+<section id="mainLogoArea" class="hero is-medium is-black">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-size-1" id="mainLeadLine">
+                WE ARE <span class="has-text-primary">SHAWJEE</span>
+            </h1>
+            <h2 class="subtitle" id="subLeadLine">
+                Creating beautiful <span class="tag is-info is-medium">Polybags</span> for all your needs.
+            </h2>
+            <h3 class="subtitle is-6" id="smallDescLine">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi modi sed perferendis doloribus nesciunt dicta consectetur error magnam magni veritatis sapiente asperiores ratione reprehenderit, libero cupiditate? Distinctio sit amet sequi!
+            </h3>
+            <div id="heroBtns" style="display: grid;grid-template-rows: 1fr 1fr;grid-row-gap: 15px;">
+                <div>
+                    <a class="bd-tw-button button is-warning is-small" href=''>
+                        <span class="icon">
+                            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            Read More
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a class="bd-tw-button button is-link is-outlined" data-social-network="Facebook" data-social-target="http://localhost:4000" target="_blank" href="https://facebook.com/">
+                        <span class="icon">
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                        <span>
+                            Facebook
+                        </span>
+                    </a>
+                    <a class="bd-tw-button button is-info is-outlined " data-social-network="Twitter" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/">
+                        <span class="icon">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span>
+                            Twitter
+                        </span>
+                    </a>
+                    <a class="bd-tw-button button is-danger is-outlined " data-social-network="Instagram" data-social-target="http://localhost:4000" target="_blank" href="https://instagram.com/">
+                        <span class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                        <span>
+                            Instagram
+                        </span>
+                    </a>
+                    <a class="bd-tw-button button is-white is-outlined " data-social-network="LinkedIn" data-social-target="http://localhost:4000" target="_blank" href="https://Linkedin.com/">
+                        <span class="icon">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </span>
+                        <span>
+                            LinkedIn
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>     
+</section>
+<!-- logo area ends -->
 
-<div id="optionsBar">
-    <a href="#section1" class="optionBarItem">Overview</a>
-    <a href="#section2" class="optionBarItem">Products</a>
-    <a href="#section3" class="optionBarItem">Infrastructure</a>
-    <a href="#" class="optionBarItem">Exports</a>
-</div>
+
+<!-- Products Area -->
+<section class="section hero is-light is-positioned-relative">
+    <div class="container">
+        <h2 class="title is-1 has-text-centered">The products we have</h2>
+        <section class="hero is-medium">
+            <div class="hero-body container">
+                <div class="bd-focus">
+                    <div class="columns is-multiline">
+                        <a href="" class="bd-focus-item card column has-text-centered tileHover">
+                            <div class="card-image">
+                                <figure class="bd-focus-icon">
+                                    <img src="icons/bopp.jpg"  alt="">
+                                </figure>
+                            </div>
+                            <p class="title is-5">BOPP bags</p>
+                        </a>
+                        <a href="" class="bd-focus-item card column has-text-centered tileHover">
+                            <div class="card-image">
+                                <figure class="bd-focus-icon">
+                                    <img src="icons/pp.jpg"  alt="">
+                                </figure>
+                            </div>
+                            <p class="title is-5">PP Bags</p>
+                        </a>
+                        <a href="" class="bd-focus-item card column has-text-centered tileHover">
+                            <div class="card-image">
+                                <figure class="bd-focus-icon">
+                                    <img src="icons/laminating.jpg"  alt="">
+                                </figure>
+                            </div>
+                            <p class="title is-5">Laminating Solutions</p>
+                            
+                        </a>
+                        <a href="" class="bd-focus-item card column has-text-centered tileHover">
+                            <div class="card-image">
+                                <figure class="bd-focus-icon">
+                                    <img src="icons/roll.jpg"  alt="">
+                                </figure>
+                            </div>
+                            <p class="title is-5">Packaging Rolls</p>
+                            
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+    </div>
+    <a id="browseProductBtn" class="button is-large is-primary is-positioned-absolute">
+        <span>
+            Browse All Products
+        </span>
+        <span class="icon">
+            <i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+        </span>
+    </a>
+</section>
+<!-- Product Area ends -->
+
+<section class="hero is-normal is-warning">
+    <div class="hero-body" >
+        <div class="container">
+            <div class="bd-focus">
+                <div class="columns"  style="overflow:hidden">
+                    <a href="" class="bd-focus-item column has-text-centered tileHover">
+                        <p class="title is-4">100% satisfaction</p>
+                        <p class="subtitle is-6">Quality that delivers satisfaction</p>
+                        <figure class="bd-focus-icon">
+                            <img src="icons/checkedall.png" width="20%" alt="">
+                        </figure>
+                    </a>
+                    <a href="" class="bd-focus-item column has-text-centered tileHover">
+                        <p class="title is-size-4">Customizable</p>
+                        <p class="subtitle is-6">Your Logo, Your design</p>
+                        <figure class="bd-focus-icon">
+                            <img src="icons/ontime.png" width="20%" alt="">
+                        </figure>
+                    </a>
+                    <a href="" class="bd-focus-item column has-text-centered tileHover">
+                        <p class="title is-size-4">Modern Technology</p>
+                        <p class="subtitle is-6">Use of latest technology</p>
+                        <figure class="bd-focus-icon">
+                            <img src="icons/machinery.png" width="20%" alt="">
+                        </figure>
+                    </a>
+                    <a href="" class="bd-focus-item column has-text-centered tileHover">
+                        <p class="title is-size-4">Budget Friendly</p>
+                        <p class="subtitle is-6">We care for you Pocket</p>
+                        <figure class="bd-focus-icon">
+                            <img src="icons/Money.png" width="20%" alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
